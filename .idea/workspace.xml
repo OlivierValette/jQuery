@@ -3,15 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6ea0b30e-e79d-4081-a399-69fc7c38de58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_departs/ajax/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_departs/cookies/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_departs/isotope/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_departs/menu-resp-js/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_departs/scroll-btt/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_departs/slidedown-form/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_departs/slider-js/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_departs/tooltip/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_departs/visionneuse/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_departs/menu-resp-js/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_departs/menu-resp-js/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_departs/menu-resp-js/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_departs/menu-resp-js/js/scripts.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,25 +19,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slidedown-form/css/styles.css">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/menu-resp-js/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
-              <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+              <caret line="197" column="19" lean-forward="true" selection-start-line="197" selection-start-column="19" selection-end-line="197" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slidedown-form/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/menu-resp-js/js/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/slidedown-form/js/scripts.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/menu-resp-js/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="23">
+              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -73,6 +72,9 @@
         <option value="$PROJECT_DIR$/brouillon/js/script.js" />
         <option value="$PROJECT_DIR$/slidedown-form/css/styles.css" />
         <option value="$PROJECT_DIR$/slidedown-form/js/scripts.js" />
+        <option value="$PROJECT_DIR$/menu-resp-js/index.html" />
+        <option value="$PROJECT_DIR$/menu-resp-js/js/scripts.js" />
+        <option value="$PROJECT_DIR$/menu-resp-js/css/styles.css" />
       </list>
     </option>
   </component>
@@ -100,13 +102,29 @@
             <path>
               <item name="jQuery" type="b2602c69:ProjectViewProjectNode" />
               <item name="jQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="slidedown-form" type="462c0819:PsiDirectoryNode" />
+              <item name="_departs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jQuery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="menu-resp-js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jQuery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="menu-resp-js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jQuery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="menu-resp-js" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jQuery" type="b2602c69:ProjectViewProjectNode" />
               <item name="jQuery" type="462c0819:PsiDirectoryNode" />
               <item name="slidedown-form" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -158,12 +176,12 @@
       <option name="presentableId" value="Default" />
       <updated>1549442196752</updated>
       <workItem from="1549442199010" duration="1760000" />
-      <workItem from="1549444510197" duration="5808000" />
+      <workItem from="1549444510197" duration="8658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7568000" />
+    <option name="totallyTimeSpent" value="10418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1504" height="832" extended-state="0" />
@@ -239,9 +257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slidedown-form/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/slidedown-form/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -251,8 +266,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/slidedown-form/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="253">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slidedown-form/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-resp-js/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-resp-js/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-resp-js/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="197" column="19" lean-forward="true" selection-start-line="197" selection-start-column="19" selection-end-line="197" selection-end-column="19" />
         </state>
       </provider>
     </entry>

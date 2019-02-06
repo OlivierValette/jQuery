@@ -119,6 +119,32 @@ nav ul {
 }
 
 /* MAIN NAV */
+.main-nav {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  transition: left 0.3s;
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-expanded .main-nav {
+  left: 0;
+}
+
+.main-nav ul ul {
+  padding-left: 2rem;
+  height: 0;
+  overflow: hidden;
+}
+
+.main-nav .has-sublist:hover ul {
+  height: auto;
+}
 
 .main-nav a {
   display: block;
@@ -146,7 +172,27 @@ nav ul {
 /* RESPONSIVE */
 
 @media only screen and (min-width:768px) {
-  
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .main-nav {
+    position: static;
+    min-height: 0;
+    padding-top: 0;
+  }
+
+  .main-nav > ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-nav ul ul {
+    position: absolute;
+    padding-left: 0;
+    width: 250px;
+  }
 
   .main-nav li a {
     display: block;
