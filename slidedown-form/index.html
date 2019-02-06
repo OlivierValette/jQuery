@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SlideDown Form</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+<div id="main">
+  <aside id="search-form">
+    <h2>Rechercher</h2>
+    <form id="form" name="filter" action="" method="get">
+    <ul>
+      <li class="item" id="item-1">
+        <h3>Département</h3>
+        <ul class="sub-list" id="sub-list-1">
+          <li class="sub-list-item">
+            <input type="checkbox" name="departement[]" id="departement-1" value="1" multiple>
+            <label for="departement-1">Tous</label>
+          </li>
+          <li class="sub-list-item">
+            <input type="checkbox" name="departement[]" id="departement-2" value="2" multiple>
+            <label for="departement-2">Hommes</label>
+          </li>
+          <li class="sub-list-item">
+            <input type="checkbox" name="departement[]" id="departement-3" value="3" multiple>
+            <label for="departement-3">Femmes</label>
+          </li>
+          <li class="sub-list-item">
+            <input type="checkbox" name="departement[]" id="departement-4" value="4" multiple>
+            <label for="departement-4">Enfants</label>
+          </li>
+          <li class="sub-list-item">
+            <input type="checkbox" name="departement[]" id="departement-5" value="5" multiple>
+            <label for="departement-5">Bébés</label>
+          </li>
+          <li class="sub-list-item">
+            <input type="checkbox" name="departement[]" id="departement-6" value="6" multiple>
+            <label for="departement-6">Accessoires</label>
+          </li>
+        </ul>
+      </li>
+      <li class="item" id="item-2">
+        <h3>Produits</h3>
+        <ul class="sub-list" id="sub-list-2">
+          <li class="sub-list-item">
+            <input type="checkbox" name="produit[]" id="produit-1" value="1" multiple>
+            <label for="produit-1">Tee shirts</label>
+          </li>
+          <li class="sub-list-item">
+            <input type="checkbox" name="produit[]" id="produit-2" value="1" multiple>
+            <label for="produit-2">Sweats shirts à capuche</label>
+          </li>
+          <li class="sub-list-item">
+            <input type="checkbox" name="produit[]" id="produit-3" value="1" multiple>
+            <label for="produit-3">Tee shirts col V</label>
+          </li>
+          <li class="sub-list-item">
+            <input type="checkbox" name="produit[]" id="produit-4" value="1" multiple>
+            <label for="produit-4">Pull à capuche bio</label>
+          </li>
+          <li class="sub-list-item">
+            <input type="checkbox" name="produit[]" id="produit-5" value="1" multiple>
+            <label for="produit-5">Tee shirt Ringer</label>
+          </li>
+          <li class="sub-list-item">
+            <input type="checkbox" name="produit[]" id="produit-6" value="1" multiple>
+            <label for="produit-6">Tee shirt manche longue</label>
+          </li>
+        </ul>
+      </li>
+      <li class="item" id="item-3">
+        <h3>Catégorie</h3>
+        <ul class="sub-list" id="sub-list-3">
+          <li class="sub-list-item">
+            <input type="checkbox" name="categorie[]" id="categorie-1" value="1" multiple>
+            <label for="categorie-1">Animaux et nature</label>
+          </li>
+          <li class="sub-list-item">
+            <input type="checkbox" name="categorie[]" id="categorie-2" value="1" multiple>
+            <label for="categorie-2">Bestseller</label>
+          </li>
+          <li class="sub-list-item">
+            <input type="checkbox" name="categorie[]" id="categorie-3" value="1" multiple>
+            <label for="categorie-3">Carrière et profession</label>
+          </li>
+          <li class="sub-list-item">
+            <input type="checkbox" name="categorie[]" id="categorie-4" value="1" multiple>
+            <label for="categorie-4">Corps et santé</label>
+          </li>
+          <li class="sub-list-item">
+            <input type="checkbox" name="categorie[]" id="categorie-5" value="1" multiple>
+            <label for="categorie-5">Famille et Bébé</label>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <button type="submit">Valider</button>
+    </form>
+  </aside>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

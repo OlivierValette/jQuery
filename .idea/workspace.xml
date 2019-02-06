@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ea0b30e-e79d-4081-a399-69fc7c38de58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brouillon/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/brouillon/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brouillon/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/brouillon/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_departs/ajax/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_departs/cookies/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_departs/isotope/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_departs/menu-resp-js/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_departs/scroll-btt/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_departs/slidedown-form/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_departs/slider-js/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_departs/tooltip/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_departs/visionneuse/_DS_Store" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,23 +24,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/brouillon/js/script.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slidedown-form/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="475">
+              <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brouillon/index.html">
+        <entry file="file://$PROJECT_DIR$/slidedown-form/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/slidedown-form/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="276">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -63,10 +71,12 @@
         <option value="$PROJECT_DIR$/Exos (Fred Murie)/js/script.js" />
         <option value="$PROJECT_DIR$/brouillon/index.html" />
         <option value="$PROJECT_DIR$/brouillon/js/script.js" />
+        <option value="$PROJECT_DIR$/slidedown-form/css/styles.css" />
+        <option value="$PROJECT_DIR$/slidedown-form/js/scripts.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
     <option name="width" value="1880" />
     <option name="height" value="1040" />
@@ -90,12 +100,12 @@
             <path>
               <item name="jQuery" type="b2602c69:ProjectViewProjectNode" />
               <item name="jQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="brouillon" type="462c0819:PsiDirectoryNode" />
+              <item name="slidedown-form" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jQuery" type="b2602c69:ProjectViewProjectNode" />
               <item name="jQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="brouillon" type="462c0819:PsiDirectoryNode" />
+              <item name="slidedown-form" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -114,13 +124,14 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\DEV\JavaScript\jQuery" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\DEV\JavaScript\jQuery\Exos (Fred Murie)\js" />
       <recent name="C:\DEV\JavaScript\jQuery\Exos (Fred Murie)\css" />
       <recent name="C:\DEV\JavaScript\jQuery\jQuery (exo)" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\DEV\jQuery" />
+      <recent name="C:\DEV\JavaScript\jQuery" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -147,15 +158,16 @@
       <option name="presentableId" value="Default" />
       <updated>1549442196752</updated>
       <workItem from="1549442199010" duration="1760000" />
-      <workItem from="1549444510197" duration="1462000" />
+      <workItem from="1549444510197" duration="5808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3222000" />
+    <option name="totallyTimeSpent" value="7568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1504" height="832" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24948876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -212,6 +224,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1434" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/brouillon/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -219,6 +236,23 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slidedown-form/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slidedown-form/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slidedown-form/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

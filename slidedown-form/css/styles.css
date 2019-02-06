@@ -1,0 +1,65 @@
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:75%;
+}
+#main{
+	max-width:960px;
+	margin:40px auto;
+}
+h2, h3{
+	font-weight:normal;
+	text-transform:uppercase;
+}
+#search-form{
+	width:25%;
+}
+#search-form form{
+  border-top:1px dotted #666;
+}
+#search-form ul{
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+#search-form .item{
+	position:relative;
+}
+#search-form h3{
+  margin:0;
+  padding:.5em;
+  border-bottom:1px dotted #666;
+  position:relative;
+}
+#search-form h3:hover{
+	cursor:default;
+}
+#search-form .sub-list{
+  display:none;
+  padding:1em 0;
+  border-bottom:1px dotted #666;
+  background:rgba(255,255,255,.8);
+}
+#search-form button{
+	border:none;
+	background:#CCC;
+	cursor:pointer;
+	margin:1em 0 0;
+	padding:.5em 1em;
+	float:right;
+}
+
+#search-form h3::after{
+	content: '';
+	border: 10px solid transparent;
+	border-bottom-width: 6px;
+	border-top-width: 6px;
+	border-left-color: #666;
+	position: absolute;
+	right: 20px;
+	top: calc( 50% - 6px );
+	transform-origin: 4px;
+	transition: 0.3s;
+}
+#search-form h3.expanded::after{
+	transform: rotate(90deg);
+}
