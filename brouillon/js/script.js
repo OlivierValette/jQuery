@@ -2,5 +2,17 @@
 // surtout pour ceux qui interagissent avec le DOM
 // version abrégée : $(function() {});
 $(document).ready(function () {
-    console.log('ICI');
+
+    $('.btn').click(function () {
+        $('.para-1').hide();
+    });
+
+    $('.btn').hover(
+        function () {
+            console.log('entrée de hover')
+    },
+        function () {
+            console.log('sortie de hover')
+    })
+
 });
