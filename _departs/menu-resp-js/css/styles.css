@@ -1,0 +1,169 @@
+/* =======================================
+   					BASE
+======================================= */
+
+body {
+  font-family: sans-serif;
+  background: rgb(194, 194, 194);
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background: rgb(102, 102, 102);
+  padding: 20px;
+}
+
+nav {
+  background: #b9b9b9;
+}
+
+main {
+  background: #FFF;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 1.6em;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.4em;
+  color: rgb(112, 112, 112);
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* =======================================
+   					NAVIGATION
+======================================= */
+
+.nav-toggle {
+  display: block;
+  font-size: 0;
+  width: 40px;
+  height: 45px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.nav-toggle span,
+.nav-toggle::before,
+.nav-toggle::after {
+  display: block;
+  position: absolute;
+  height: 6px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 6px;
+  opacity: 1;
+  left: 0;
+  transition: .3s;
+  transform-origin: left center;
+}
+
+.nav-toggle::before {
+  content: '';
+  top: 0px;
+}
+
+.nav-toggle span {
+  top: 12px;
+}
+
+.nav-toggle::after {
+  content: '';
+  top: 24px;
+}
+
+.nav-expanded .nav-toggle::before {
+  transform: rotate(45deg);
+  top: -2px;
+  left: 5px;
+}
+
+.nav-expanded .nav-toggle span {
+  width: 0%;
+  opacity: 0;
+}
+
+.nav-expanded .nav-toggle::after {
+  transform: rotate(-45deg);
+  top: 26px;
+  left: 5px;
+}
+
+.main-nav ul {
+  display: none;
+}
+
+.resp-nav {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: 9998;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 65px;
+  background-color: rgb(170, 170, 170);
+  transition: 0.3s;
+}
+
+.nav-expanded .resp-nav {
+  left: 0;
+}
+
+.resp-nav a {
+  display: block;
+  color: #fff;
+  padding: .5em 1.5em;
+  font-size: 1em;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+.resp-nav a:hover {
+  background-color: rgb(122, 122, 122);
+}
+
+@media only screen and (min-width:768px) {
+  .nav-toggle {
+    display: none;
+  }
+  .main-nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  .main-nav li a {
+    display: block;
+    padding: .5em 1.5em;
+    font-size: 1em;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: .3s;
+  }
+  .main-nav li:hover a {
+    background: rgb(124, 124, 124);
+  }
+}

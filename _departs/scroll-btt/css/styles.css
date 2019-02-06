@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgba(200, 200, 200, 0.8);
+}
+
+main {
+  padding-top: 120px;
+}
+
+header .row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  width: 350px;
+}
+
+header nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+}
+
+header nav ul li a {
+  display: block;
+  padding: 1rem;
+  color: rgb(236, 67, 67);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
